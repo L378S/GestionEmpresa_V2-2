@@ -6,7 +6,7 @@ import json
 
 st.set_page_config(page_title="Sistema de Gestion Empresarial", layout="wide")
 
-API_URL = "https://gestionempresa-v2-2.onrender.com/api"
+API_URL = "https://gestionempresa-v2-1.onrender.com/api"
 
 if 'token' not in st.session_state:
     st.session_state.token = None
